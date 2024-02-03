@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    box-sizing: content-box;
+}
+.content{
+    flex: 1;
+    height: 100vh;
+    padding: 20px;
+    background: linear-gradient(rgb(0, 140, 255), rgb(141, 136, 136));
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    padding: 16px;
+    background: #ffd000;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+.box{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
